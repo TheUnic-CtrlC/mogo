@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+    <script>
+        function showImg() {
+            document.getElementById("map_img").style.display = "";
+        }
+    </script>
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header-inner">
+            <div class="header-logo">MoGo</div>
+            <nav class="header-nav">
+                <a class="header-nav-link active" href="#">ABOUT</a>
+                <a class="header-nav-link" href="#">SERVICE</a>
+                <a class="header-nav-link" href="#">WORK</a>
+                <a class="header-nav-link" href="#">BLOG</a>
+                <a class="header-nav-link" href="#">CONTACT</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div class="intro">
+    <div class="container">
+        <div class="intro-inner">
+            <h2 class="intro-second-title">Creative Template</h2>
+            <h1 class="intro-title">Welcome to MoGo</h1>
+            <a href="#" class="btn" onclick="showImg()">Learn More</a>
+            <img id="map_img" src="assets/img/vapseta.jpg" style="display: none;" width="400" height="400" />
+        </div>
+    </div>
+    <div class="slider">
+        <div class="container">
+            <div class="slider-inner">
+                <div class="slider-item active">
+                    <span class="slider-item-num">01</span> Intro
+                </div>
+                <div class="slider-item">
+                    <span class="slider-item-num">02</span> Work
+                </div>
+                <div class="slider-item">
+                    <span class="slider-item-num">03</span> About
+                </div>
+                <div class="slider-item">
+                    <span class="slider-item-num">04</span> Contacts
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
